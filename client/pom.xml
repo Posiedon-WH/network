@@ -16,4 +16,12 @@
         <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
+
 </project>

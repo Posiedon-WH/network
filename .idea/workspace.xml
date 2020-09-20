@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2e2bf0c-66e2-4111-a165-957395d36981" name="Default Changelist" comment="" />
+    <list default="true" id="d2e2bf0c-66e2-4111-a165-957395d36981" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/posiedon/network/serial/TestSerial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/posiedon/network/serial/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/network-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/network-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/posiedon/network/NIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/posiedon/network/NIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/posiedon/network/NIOtmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/posiedon/network/NIOtmp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +43,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1c53aEeAZ5cJ9MStv5xS1UkaUpj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,9 +57,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/java享学/网络协议与netty/03-2019.07.02-网络协议和网络编程三（网络协议与Netty）" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -32,10 +68,10 @@
     <property name="project.structure.side.proportion" value="0.27655503" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.NIOClient">
+  <component name="RunManager" selected="JUnit.TestSerial.readSerial">
     <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.posiedon.network.NIOClient" />
-      <module name="client" />
+      <module name="network-client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.posiedon.network.*" />
@@ -72,11 +108,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSerial.readSerial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="network-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.posiedon.network.serial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.posiedon.network.serial" />
+      <option name="MAIN_CLASS_NAME" value="com.posiedon.network.serial.TestSerial" />
+      <option name="METHOD_NAME" value="readSerial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSerial.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="network-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.posiedon.network.serial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.posiedon.network.serial" />
+      <option name="MAIN_CLASS_NAME" value="com.posiedon.network.serial.TestSerial" />
+      <option name="METHOD_NAME" value="saveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.NIOtmp" />
+      <item itemvalue="Application.NIOUpgrade" />
+      <item itemvalue="Application.NIOClient" />
+      <item itemvalue="JUnit.TestSerial.saveTest" />
+      <item itemvalue="JUnit.TestSerial.readSerial" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSerial.readSerial" />
+        <item itemvalue="JUnit.TestSerial.saveTest" />
+        <item itemvalue="Application.NIOtmp" />
         <item itemvalue="Application.NIOClient" />
         <item itemvalue="Application.NIOUpgrade" />
-        <item itemvalue="Application.NIOtmp" />
       </list>
     </recent_temporary>
   </component>
@@ -93,20 +170,69 @@
       <workItem from="1589804695446" duration="5293000" />
       <workItem from="1590490730553" duration="27000" />
       <workItem from="1600491103856" duration="590000" />
+      <workItem from="1600514074247" duration="1201000" />
+      <workItem from="1600572730524" duration="7762000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="304" y="2" key="#NIOClient" timestamp="1600514186492">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="304" y="2" key="#NIOClient/0.0.1366.768@0.0.1366.768" timestamp="1600514186492" />
+    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600514205817">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1600514205817" />
+    <state x="488" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1600608671123">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1600608671123" />
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1600608263968">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1600608263968" />
     <state x="545" y="281" width="357" height="293" key="Github.ShareDialog" timestamp="1600491623103">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="545" y="281" width="357" height="293" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1600491623103" />
+    <state width="1325" height="228" key="GridCell.Tab.0.bottom" timestamp="1600609720165">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1325" height="228" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600609720165" />
+    <state width="1325" height="228" key="GridCell.Tab.0.center" timestamp="1600609720165">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1325" height="228" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600609720165" />
+    <state width="1325" height="228" key="GridCell.Tab.0.left" timestamp="1600609720165">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1325" height="228" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600609720165" />
+    <state width="1325" height="228" key="GridCell.Tab.0.right" timestamp="1600609720165">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1325" height="228" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600609720165" />
     <state x="214" y="28" key="SettingsEditor" timestamp="1600491694656">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="214" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1600491694656" />
+    <state x="404" y="124" width="540" height="524" key="StructurePopup" timestamp="1600574083504">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="404" y="124" width="540" height="524" key="StructurePopup/0.0.1366.768@0.0.1366.768" timestamp="1600574083504" />
   </component>
 </project>

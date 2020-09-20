@@ -11,6 +11,8 @@ import java.net.Socket;
 public class NIOtmp {
     static byte[] bs=new byte[1024];
     public static void main(String[] args) {
+        int i = Runtime.getRuntime().availableProcessors();
+        System.out.println("cpu核心数："+i);
         try {
             ServerSocket serverSocket = new ServerSocket(9000);
             while (true){
@@ -23,6 +25,7 @@ public class NIOtmp {
                 serverSocketImpl.getInputStream().read(bs);
                 System.out.println("data success");
                 System.out.println(new String(bs));
+                serverSocketImpl.getOutputStream().write("hello ".getBytes());
 
                 //3 不支持多个客户端，如何解决，思路：解除阻塞，保存有效连接，循环读取数据
                 //sun公司开发出新类——>
